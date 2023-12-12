@@ -1,0 +1,434 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block;  }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;
+  color: #2da690;}
+
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div#full {
+    width: 100%;
+}
+
+.info-covid{
+    background-color: black;
+    position: relative;
+    height: 60px;
+}
+
+.info-covid-link{
+    color: white;
+    text-align: center;
+    font-size: smaller;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration:underline;
+
+}
+
+.header{
+    width: 100%;
+    z-index: 999;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+.header-contents{
+    display:flex;
+    align-items: center;
+    
+}
+
+.header-logo{
+    height: 40px;
+    width: 180px;
+}
+
+.header-navi {
+    margin: 0 auto;
+}
+
+.navi-list{
+    display:flex;
+    justify-content: center;
+}
+
+.navi-list li{
+    color: white;
+    margin-right: 50px;
+   
+}
+
+.signin{
+    color: white;
+
+}
+
+.wrap{
+    max-width:1300px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.fv-background{
+    background-image: url(cafe/img/eyecatch.jpg);
+    background-size: cover;
+    height:700px;
+    position: relative;
+
+}
+
+.catchcopy{
+    font-size:60px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top:60%;
+
+}
+
+.access {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box1{
+    margin: 40px 0px;
+}
+
+
+.mini-box{
+    display: flex;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    min-width: 180px;
+    
+}
+
+.mini-box-img{
+    width:60px;
+    height: 60px;
+    border-radius: 8px;
+    margin-right: 15px;
+
+
+}
+
+.mini-box-contents li {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+ul.mini-box-contents  {
+    padding-top: 5px;
+}
+
+.location{
+   
+    justify-content: space-around;
+    margin-top: 70px;
+
+
+}
+
+h2.subject-tittle {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.locations{
+    display: flex;
+}
+
+.location-box {
+    margin-right: 20px;
+}
+
+.location-image{
+    width:200px;
+    border-radius: 8px;
+
+}
+
+.lacation-tittle{
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: larger;
+}
+
+.gotoeat_campaign {
+    height:300px;
+
+    background-image: url(cafe/img/goto.jpg);
+    margin-top: 60px;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 50px;
+
+}
+
+.campaign{
+    width:500px; 
+    background-color: #ffffff6e;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    padding: 10px;
+}
+
+
+.campaign-tittle{
+    font-weight:bold;
+    font-size: 40px;
+    
+}
+
+ul.campaign-contents {
+    font-size: 17px;
+}
+
+.box2{
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+}
+
+.subject-subtittle{
+    margin-bottom:25px;
+}
+
+.mini-boxies2{
+    display: flex;
+}
+
+.mini-box2{
+    width:33%;
+}
+
+.mini-box2-image{
+    width:100%;
+    border-radius: 8px;
+
+}
+
+.cafe-exp{
+    margin-right: 15px;
+}
+
+h3.mini-box2-tittle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top:5px;
+}
+
+p.mini-box2-subtittle {
+    font-size: smaller;
+}
+
+.mini-boxies3{
+    display: flex;
+}
+
+.mini-box3{
+    width:33%;
+}
+
+.mini-box3-image{
+    width:100%;
+    border-radius: 8px;
+
+}
+
+.cafe-exp{
+    margin-right: 15px;
+}
+
+h3.mini-box3-tittle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top:5px;
+}
+
+p.mini-box3-subtittle {
+    font-size: smaller;
+}
+
+.hosts{
+    margin-right: 15px;
+}
+
+.box3{
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.footer{
+    padding: 40px 0;
+    background-color: #80808017;
+}
+
+.footer-infos{
+    display: flex;
+    border-bottom: solid 1px #80808091;
+}
+
+.footer-info{
+    width:25%;
+}
+
+p.footer-info-tittle {
+    margin-bottom: 15px;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.footer-info-subject li {
+    margin-bottom: 15px;
+    font-size: smaller;
+
+}
+
+ul.copyright-contents {
+    margin-top: 15px;
+}
+
+
+.copyright {
+    font-size: 15px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgb(0 0 0 / 75%);
+    transition: 0.5s;
+    
+  }
+
+  #js-header{
+    transition: 0.5s;
+  }
+
+ /* ここから下がハンバーガーメニューに関するCSS */
+	
+  /* チェックボックスを非表示にする */
+  .drawer_hidden {
+	display: none;
+  }
+  
+  /* ハンバーガーアイコンの設置スペース */
+  .drawer_open {
+	display: flex;
+	height: 60px;
+	width: 60px;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 100;/* 重なり順を一番上にする */
+	cursor: pointer;
+  }
+  
+  /* ハンバーガーメニューのアイコン */
+  .drawer_open span,
+  .drawer_open span:before,
+  .drawer_open span:after {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 35px;
+	border-radius: 3px;
+	background: #2da690;
+	transition: 0.5s;
+	position: absolute;
+  }
+  
+  /* 三本線の一番上の棒の位置調整 */
+  .drawer_open span:before {
+	bottom: 8px;
+  }
+  
+  /* 三本線の一番下の棒の位置調整 */
+  .drawer_open span:after {
+	top: 8px;
+  }
+  
+  /* アイコンがクリックされたら真ん中の線を透明にする */
+  #drawer_input:checked ~ .drawer_open span {
+	background: rgba(255, 255, 255, 0);
+  }
+  
+  /* アイコンがクリックされたらアイコンが×印になように上下の線を回転 */
+  #drawer_input:checked ~ .drawer_open span::before {
+	bottom: 0;
+	transform: rotate(45deg);
+  }
+  
+  #drawer_input:checked ~ .drawer_open span::after {
+	top: 0;
+	transform: rotate(-45deg);
+  }
+	
+  /* メニューのデザイン*/
+  .nav_content {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 100%; /* メニューを画面の外に飛ばす */
+	z-index: 99;
+	background: #ffffffc9;
+	transition: .5s;
+  }
+  
+  /* メニュー黒ポチを消す */
+  .nav_list {
+	list-style: none;
+	margin:120px 0 0 40px;
+  }
+  
+  /* アイコンがクリックされたらメニューを表示 */
+  #drawer_input:checked ~ .nav_content {
+	left: 60%;/* メニューを画面に入れる */
+
+  }
+
+  li.nav_item{
+	color: #2da690;
+	margin-bottom: 40px;
+  }
